@@ -139,14 +139,14 @@ RectTransform:
   m_GameObject: {fileID: 92011248}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1609473120}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5341774, y: 0.5}
-  m_AnchoredPosition: {x: -28, y: 10}
+  m_AnchoredPosition: {x: -28, y: 204}
   m_SizeDelta: {x: 965.7576, y: 999.8313}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &92011250
@@ -169,10 +169,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 200
+    m_FontSize: 100
     m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 0
     m_MaxSize: 200
     m_Alignment: 1
     m_AlignByGeometry: 0
@@ -180,7 +180,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Welcom to the empty room :P
+  m_Text: '1) Use "o" key for light switch
+
+    2) Use "Q" key for taking you out
+
+    3) Go under the moon of the planet for it to fall.
+
+'
 --- !u!222 &92011251
 CanvasRenderer:
   m_ObjectHideFlags: 0
